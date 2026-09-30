@@ -11,7 +11,7 @@ st.header("Dashboard Overview")
 # st.subheader("What this app will show")
 
 
-DATA_PATH = "./data/resale_data.csv"
+DATA_PATH = "./resale_data.csv"
 
 @st.cache_data
 def load_data(path):
